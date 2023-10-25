@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, user-scalable=0">
+    <title>HIIT TIMER</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1 id="timer">Break</h1>
+      <div id="countdown">00:15</div>
+      <button id="startButton">Start</button>
+      <button id="pauseButton" disabled>Pause</button>
+      <button id="restartButton" disabled>Restart</button>
+      <div>
+        <h4>Change Break Duration:</h4>
+        <button id="breakMinusButton">-</button>
+        <span id="breakDuration">15</span>
+        <button id="breakPlusButton">+</button>
+        <h4>Change workout Duration:</h4>
+        <button id="workoutMinusButton">-</button>
+        <span id="workoutDuration">45</span>
+        <button id="workoutPlusButton">+</button>
+      </div>
+    </div>
+  </body>
+</html>
