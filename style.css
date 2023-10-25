@@ -1,0 +1,271 @@
+/*Mobile Styles*/
+
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Oswald', sans-serif;
+  background-color: black; /* Set the background to black */
+  color: white; /* Set the text color to white */
+  font-size: 21px;
+}
+
+.wrapper {
+  text-align: center;
+}
+
+#countdown {
+  font-size: 3em;
+  margin-top: 10px;
+  border: 2px solid white; /* Set the border color to white */
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#timer {
+  font-size: 3em;
+  margin-top: 5px;
+}
+
+#startButton{
+  background-color: #A9A9A9;
+  color: white;
+    border-radius: 50px;
+    font-size: 25px;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 6px 18px;
+  margin-top: 15px;
+    cursor: pointer;
+}
+#pauseButton{
+ background-color: #808080;
+  color: white;
+    border-radius: 50px;
+    font-size: 25px;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 6px 18px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+#restartButton{
+  color: black;
+  background-color: #E5E4E2;
+    border-radius: 50px;
+    font-size: 25px;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 6px 18px;
+  margin-top: 15px;
+    cursor: pointer;
+}
+
+
+/*+- Buttons*/
+#breakPlusButton{
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 6px 12px;
+  width: 80px
+}
+
+#breakPlusButton:hover{
+  cursor: pointer;
+  background-color: lightgrey;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 6px 12px;
+}
+
+#workoutPlusButton{
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 6px 12px;
+  width: 80px
+}
+
+#workoutPlusButton:hover{
+  cursor: pointer;
+  background-color: lightgrey;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 6px 12px;
+}
+
+
+#breakMinusButton{
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 6px 12px;
+  width: 80px
+}
+
+#breakMinusButton:hover{
+  cursor: pointer;
+  background-color: lightgrey;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 6px 12px;
+}
+
+#workoutMinusButton{
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 6px 12px;
+  width: 80px
+}
+
+#workoutMinusButton:hover{
+  cursor: pointer;
+  background-color: lightgrey;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 6px 12px;
+}
+
+#breakDuration{
+  font-size: 30px;
+  margin: 20px;
+}
+
+#workoutDuration{
+  font-size: 30px;
+  margin: 20px;
+}
+
+
+/*-------------------------------------------------------------------------------------------------------------------------/
+/*Desktop styles*/
+
+@media (min-width: 834px) {
+ html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Oswald', sans-serif;
+  background-color: black; /* Set the background to black */
+  color: white; /* Set the text color to white */
+}
+
+.wrapper {
+  text-align: center;
+}
+
+#countdown {
+  font-size: 5em;
+  margin: 10px;
+  border: 2px solid white; /* Set the border color to white */
+   margin-top: 20px;
+    margin-bottom: 50px;
+  border-radius: 10px;
+}
+
+#timer {
+  font-size: 6em;
+
+
+}
+
+#startButton{
+  background-color: #A9A9A9;
+  color: white;
+    border-radius: 50px;
+    font-size: 40px;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 6px 18px;
+  margin: 20px;
+    cursor: pointer;
+}
+#pauseButton{
+  background-color: #808080;
+  color: white;
+    border-radius: 50px;
+    font-size: 40px;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 6px 18px;
+    margin: 20px;
+    cursor: pointer;
+}
+#restartButton{
+  color: black;
+  background-color: #E5E4E2;
+    border-radius: 50px;
+    font-size: 40px;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 6px 18px;
+  margin: 20px;
+    cursor: pointer;
+}
+
+
+/*+- Buttons*/
+#breakPlusButton{
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 6px 12px;
+}
+
+#breakPlusButton:hover{
+  cursor: pointer;
+  background-color: lightgrey;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 6px 12px;
+}
+
+#workoutPlusButton{
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 6px 12px;
+}
+
+#workoutPlusButton:hover{
+  cursor: pointer;
+  background-color: lightgrey;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 6px 12px;
+}
+
+
+#breakMinusButton{
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 6px 12px;
+}
+
+#breakMinusButton:hover{
+  cursor: pointer;
+  background-color: lightgrey;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 6px 12px;
+}
+
+#workoutMinusButton{
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 6px 12px;
+}
+
+#workoutMinusButton:hover{
+  cursor: pointer;
+  background-color: lightgrey;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 6px 12px;
+}
+}
+
+
+
+
+
+
+
+
+
